@@ -97,8 +97,7 @@ public class TwitterSK extends JavaPlugin {
 			}
 		   
 		}));
-		Skript.registerCondition(CondIsFollowedBy.class, "%twitterer% is followed by");
-		Skript.registerCondition(CondIsFollowing.class, "%twitterer% is following");
+		Skript.registerCondition(CondTwitterFollow.class, "%twitterer% follow[s] %twitterer%");
 		Skript.registerCondition(CondIsPossiblySensitive.class, "%tweet% is possibly sensitive");
 		Skript.registerCondition(CondIsRetweeted.class, "%tweet% is retweeted");
 		Skript.registerCondition(CondIsRetweetedByMe.class, "%tweet% is retweeted by me");
