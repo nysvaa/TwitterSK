@@ -119,6 +119,7 @@ public class TwitterSK extends JavaPlugin {
 		Skript.registerEffect(EffTwitterUnblockUser.class, "(un|de)block %twitterer%");
 		Skript.registerEffect(EffTwitterUnfollow.class, "unfollow %twitterer%");
 		Skript.registerEffect(EffTwitterDirectMessage.class, "[send ](dm|direct message) %string% to %twitterer%");
+		Skript.registerEffect(EffTwitterReplyToTweet.class, "reply %string% to %tweet%");
 		Skript.registerExpression(ExprSearchTweets.class, Status.class, ExpressionType.PROPERTY, "search tweet[s] (for|with query) %string%");
 		Skript.registerExpression(ExprStatusUser.class, User.class, ExpressionType.PROPERTY, "(author|twitterer) of %tweet%");
 		Skript.registerExpression(ExprTwitterAccessLevel.class, Integer.class, ExpressionType.PROPERTY, "twitter access level");
