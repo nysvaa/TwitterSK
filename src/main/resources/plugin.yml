@@ -1,0 +1,6 @@
+name: TwitterSK
+author: Nashoba24
+description: Twitter Skript Addon
+version: 1.0.4
+main: fr.nashoba24.twittersk.TwitterSK
+depend: [Skript]
